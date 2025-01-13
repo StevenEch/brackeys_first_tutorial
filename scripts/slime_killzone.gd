@@ -1,6 +1,6 @@
 extends killzone
 
-var DAMAGE = 2
+var DAMAGE = 1
 
 func _on_body_entered(body: Node2D) -> void:
 	if inmune_timer.is_stopped():
